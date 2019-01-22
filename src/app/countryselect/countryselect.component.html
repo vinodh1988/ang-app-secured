@@ -1,0 +1,8 @@
+<div class="selectbox">
+  Choose a Country
+   <select>
+      <option *ngFor="let x of countries">
+         ({{x.dialling_code}}) {{x.country_name}}
+      </option>
+   </select>
+  </div>

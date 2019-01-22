@@ -1,0 +1,13 @@
+.selectbox{
+    background: lightseagreen;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.selectbox select{
+    height: 30px;
+    min-width: 150px;
+    border: 1px solid gray;
+    border-radius: 3px;
+}

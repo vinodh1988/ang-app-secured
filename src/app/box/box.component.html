@@ -1,0 +1,9 @@
+<div [ngClass]="theme">
+
+  <h3>{{type}}</h3>
+  <hr>
+  <ul>
+    <li *ngFor="let x of things">{{x}}</li>
+  </ul>
+  <button (click)="toggleTheme()">Toggle Theme</button>
+</div>
